@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Nils Flöser — Ontology-Driven Systems, Agent Engineering and Live Data Analytics" width="100%" />
+  
 </p>
 
 <br>
