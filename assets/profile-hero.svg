@@ -1,0 +1,45 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#0B0F14"/>
+    <stop offset="0.55" stop-color="#111821"/>
+    <stop offset="1" stop-color="#0A0D12"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="245" y1="56" x2="950" y2="258" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#7DD3FC"/>
+    <stop offset="0.55" stop-color="#A7F3D0"/>
+    <stop offset="1" stop-color="#C4B5FD"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94A3B8" stroke-opacity="0.08" stroke-width="1"/>
+  </pattern>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="8" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+<g opacity="0.42">
+  <path d="M55 248 C150 182 210 250 315 188 C412 131 470 179 561 119 C654 59 747 132 838 88 C927 45 1015 91 1154 42" stroke="url(#accent)" stroke-width="1.5"/>
+  <path d="M71 82 C157 125 232 72 312 110 C406 154 471 95 558 143 C653 195 740 149 822 184 C911 223 1011 187 1142 238" stroke="url(#accent)" stroke-width="1.2" stroke-opacity="0.55"/>
+  <path d="M130 274 L247 207 L354 242 L474 167 L591 208 L716 141 L838 173 L966 118 L1089 143" stroke="#94A3B8" stroke-opacity="0.25" stroke-width="1"/>
+</g>
+<g fill="#D8F3FF">
+  <circle cx="55" cy="248" r="3.5"/><circle cx="315" cy="188" r="3.5"/>
+  <circle cx="561" cy="119" r="3.5"/><circle cx="838" cy="88" r="3.5"/>
+  <circle cx="1154" cy="42" r="3.5"/><circle cx="71" cy="82" r="3.5"/>
+  <circle cx="312" cy="110" r="3.5"/><circle cx="558" cy="143" r="3.5"/>
+  <circle cx="822" cy="184" r="3.5"/><circle cx="1142" cy="238" r="3.5"/>
+</g>
+<rect x="56" y="54" width="4" height="206" rx="2" fill="url(#accent)" filter="url(#glow)"/>
+<text x="92" y="108" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-1">NILS FLÖSER</text>
+<text x="94" y="148" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" letter-spacing="1.4">SOFTWARE DEVELOPMENT · DIGITAL TWINS · GEOSPATIAL SYSTEMS</text>
+<text x="94" y="204" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="16">Building reproducible systems that connect real-world data,</text>
+<text x="94" y="229" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="16">computational models and explainable software architecture.</text>
+<g transform="translate(904 225)">
+  <rect x="0" y="0" width="214" height="38" rx="19" fill="#0F172A" stroke="#334155"/>
+  <circle cx="22" cy="19" r="5" fill="#A7F3D0"/>
+  <text x="38" y="24" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="0.6">BERLIN URBAN INTELLIGENCE</text>
+</g>
+</svg>
