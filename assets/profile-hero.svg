@@ -1,70 +1,39 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#071018"/>
-      <stop offset="0.52" stop-color="#0B121B"/>
-      <stop offset="1" stop-color="#080C12"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="70" y1="55" x2="1125" y2="305" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#78D7FF"/>
-      <stop offset="0.50" stop-color="#8CE6C2"/>
-      <stop offset="1" stop-color="#AFA8FF"/>
-    </linearGradient>
-    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(1000 85) rotate(133) scale(300 260)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#78D7FF" stop-opacity="0.13"/>
-      <stop offset="1" stop-color="#78D7FF" stop-opacity="0"/>
-    </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="#93A4B8" stroke-opacity="0.065"/>
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.05"/>
     </pattern>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
+  <rect width="1200" height="300" rx="24" fill="#0D1117"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" stroke="#30363D"/>
 
-  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="26" fill="url(#grid)"/>
-  <rect width="1200" height="360" rx="26" fill="url(#orb)"/>
-  <rect x="1" y="1" width="1198" height="358" rx="25" stroke="#94A3B8" stroke-opacity="0.14"/>
+  <text x="64" y="58" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2">SOFTWARE ENGINEERING / URBAN DATA SYSTEMS</text>
+  <text x="64" y="122" fill="#F0F6FC" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="50" font-weight="650" letter-spacing="-1.4">Nils Flöser</text>
+  <text x="65" y="160" fill="#C9D1D9" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">Digital twins · geospatial systems · data-intensive software</text>
+  <text x="65" y="205" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Building reproducible systems around real-world data, spatial models,</text>
+  <text x="65" y="229" fill="#8B949E" font-family="Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">network analysis and explicit computational contracts.</text>
 
-  <g opacity="0.62" stroke-linecap="round">
-    <path d="M763 77L850 120L930 83L1012 128L1102 91" stroke="url(#accent)" stroke-width="1.35"/>
-    <path d="M730 176L819 142L908 190L997 155L1119 202" stroke="url(#accent)" stroke-width="1.2" stroke-opacity="0.65"/>
-    <path d="M777 262L870 216L951 250L1038 220L1127 272" stroke="#86DCC6" stroke-width="1.15" stroke-opacity="0.46"/>
-    <path d="M850 120L819 142L870 216" stroke="#7DD3FC" stroke-opacity="0.35"/>
-    <path d="M930 83L908 190L951 250" stroke="#A7F3D0" stroke-opacity="0.34"/>
-    <path d="M1012 128L997 155L1038 220" stroke="#C4B5FD" stroke-opacity="0.34"/>
+  <g transform="translate(765 62)">
+    <text x="0" y="0" fill="#6E7681" font-family="ui-monospace, monospace" font-size="10.5" letter-spacing="1.2">CURRENT SYSTEM</text>
+    <line x1="0" y1="22" x2="330" y2="22" stroke="#30363D"/>
+
+    <rect x="0" y="48" width="88" height="38" rx="8" fill="#161B22" stroke="#30363D"/>
+    <text x="44" y="72" text-anchor="middle" fill="#C9D1D9" font-family="ui-monospace, monospace" font-size="10.5">OBSERVE</text>
+    <line x1="88" y1="67" x2="118" y2="67" stroke="#58A6FF" stroke-opacity="0.7"/>
+
+    <rect x="118" y="48" width="88" height="38" rx="8" fill="#161B22" stroke="#30363D"/>
+    <text x="162" y="72" text-anchor="middle" fill="#C9D1D9" font-family="ui-monospace, monospace" font-size="10.5">MODEL</text>
+    <line x1="206" y1="67" x2="236" y2="67" stroke="#58A6FF" stroke-opacity="0.7"/>
+
+    <rect x="236" y="48" width="88" height="38" rx="8" fill="#161B22" stroke="#30363D"/>
+    <text x="280" y="72" text-anchor="middle" fill="#C9D1D9" font-family="ui-monospace, monospace" font-size="10.5">ORCHESTRATE</text>
+
+    <line x1="280" y1="86" x2="280" y2="116" stroke="#58A6FF" stroke-opacity="0.7"/>
+    <rect x="177" y="116" width="206" height="44" rx="9" fill="#161B22" stroke="#30363D"/>
+    <circle cx="198" cy="138" r="4" fill="#3FB950"/>
+    <text x="212" y="142" fill="#C9D1D9" font-family="ui-monospace, monospace" font-size="10.5">BERLIN URBAN INTELLIGENCE</text>
   </g>
 
-  <g fill="#CFFAFE" filter="url(#glow)">
-    <circle cx="763" cy="77" r="3"/><circle cx="850" cy="120" r="3"/><circle cx="930" cy="83" r="3"/>
-    <circle cx="1012" cy="128" r="3"/><circle cx="1102" cy="91" r="3"/><circle cx="730" cy="176" r="3"/>
-    <circle cx="819" cy="142" r="3"/><circle cx="908" cy="190" r="3"/><circle cx="997" cy="155" r="3"/>
-    <circle cx="1119" cy="202" r="3"/><circle cx="777" cy="262" r="3"/><circle cx="870" cy="216" r="3"/>
-    <circle cx="951" cy="250" r="3"/><circle cx="1038" cy="220" r="3"/><circle cx="1127" cy="272" r="3"/>
-  </g>
-
-  <text x="72" y="68" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2.4">PROFILE / SOFTWARE ENGINEERING</text>
-  <rect x="72" y="89" width="4" height="150" rx="2" fill="url(#accent)"/>
-  <text x="100" y="137" fill="#F8FAFC" font-family="Inter, Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="-1.8">NILS FLÖSER</text>
-  <text x="101" y="178" fill="#CBD5E1" font-family="Inter, Arial, Helvetica, sans-serif" font-size="18" letter-spacing="1.55">SOFTWARE DEVELOPMENT · DIGITAL TWINS · GEOSPATIAL SYSTEMS</text>
-  <text x="101" y="226" fill="#93A4B8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15.5">Engineering reproducible systems that connect real-world data,</text>
-  <text x="101" y="251" fill="#93A4B8" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15.5">computational models and explainable software architecture.</text>
-
-  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11.5">
-    <rect x="72" y="291" width="190" height="34" rx="17" fill="#0D1722" stroke="#293646"/>
-    <circle cx="91" cy="308" r="4" fill="#8CE6C2"/>
-    <text x="105" y="312" fill="#B8C5D2">REAL-WORLD DATA</text>
-
-    <rect x="273" y="291" width="190" height="34" rx="17" fill="#0D1722" stroke="#293646"/>
-    <circle cx="292" cy="308" r="4" fill="#78D7FF"/>
-    <text x="306" y="312" fill="#B8C5D2">AGENT SYSTEMS</text>
-
-    <rect x="474" y="291" width="208" height="34" rx="17" fill="#0D1722" stroke="#293646"/>
-    <circle cx="493" cy="308" r="4" fill="#AFA8FF"/>
-    <text x="507" y="312" fill="#B8C5D2">REPRODUCIBLE MODELS</text>
-  </g>
-
-  <text x="1118" y="324" text-anchor="end" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">BERLIN / 2026</text>
+  <text x="1136" y="270" text-anchor="end" fill="#484F58" font-family="ui-monospace, monospace" font-size="10">GITHUB / ENGINEERING PROFILE</text>
 </svg>
