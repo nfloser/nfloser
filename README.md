@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Nils Flöser — Software Development, Digital Twins and Geospatial Systems" width="100%" />
+  <img src="./assets/profile-hero.svg" alt="Nils Flöser — Software Engineering, Digital Twins and Geospatial Systems" width="100%" />
 </p>
 
 <p align="center">
@@ -14,57 +14,23 @@
 
 <br>
 
-## Engineering Profile
+## About
 
-I am a software developer focused on **research-oriented, data-intensive systems** that connect real-world observations, computational models, geospatial information and explainable software architecture.
+I am a software developer working on **data-intensive and geospatial systems** that connect real-world observations, computational models and explicit software architecture.
 
-My current work centres on **urban digital twins, geospatial data engineering, time-series forecasting, network analysis, semantic interoperability and agent-based system design**. I am particularly interested in systems that integrate heterogeneous data while preserving provenance, temporal validity, spatial context, uncertainty and reproducibility.
-
-<br>
-
-## Current Focus — Berlin Urban Intelligence
-
-<table>
-<tr>
-<td width="62%" valign="top">
-
-### An agent-based urban intelligence platform for Berlin
-
-**Berlin Urban Intelligence** is the long-term integration project connecting mobility, energy, environmental, climate, infrastructure and resilience information within a common digital-twin architecture.
-
-The platform is designed around specialised computational agents, shared machine-readable contracts, semantic knowledge representation, provenance-aware processing, geospatial and temporal models, and reproducible analytical workflows.
-
-A central design rule is that **observations, official model outputs, project-derived values, forecasts and hypothetical scenarios remain explicitly distinguishable throughout the processing chain**.
-
-[Explore Berlin Urban Intelligence →](https://github.com/nfloser/berlin-urban-intelligence)
-
-</td>
-<td width="38%" valign="top">
-
-### System principles
-
-```text
-REAL-WORLD DATA
-       ↓
-   VALIDATION
-       ↓
-   PROVENANCE
-       ↓
-  DOMAIN AGENTS
-       ↓
- SHARED KNOWLEDGE
-       ↓
-CROSS-DOMAIN ANALYSIS
-```
-
-`reproducible` · `typed` · `geospatial`  
-`provenance-aware` · `test-driven`
-
-</td>
-</tr>
-</table>
+My current focus is urban digital twins: integrating heterogeneous spatial and temporal data, building reproducible analytical pipelines, and designing domain components that can operate independently while remaining interoperable at system level.
 
 <br>
+
+## Current work
+
+### Berlin Urban Intelligence
+
+[**Berlin Urban Intelligence**](https://github.com/nfloser/berlin-urban-intelligence) is the integration project connecting mobility, energy, environment, climate, infrastructure and resilience within a common agent-based urban intelligence architecture.
+
+The system is being designed around specialised computational agents, shared typed contracts, semantic knowledge representation, provenance-aware processing and reproducible cross-domain workflows.
+
+A core requirement is that **observed, officially modelled, project-modelled, forecast, derived and hypothetical scenario data remain distinguishable throughout the processing chain**.
 
 <p align="center">
   <img src="./assets/urban-intelligence-architecture.svg" alt="Berlin Urban Intelligence conceptual architecture" width="100%" />
@@ -72,62 +38,44 @@ CROSS-DOMAIN ANALYSIS
 
 <br>
 
-## Selected Systems
+## Selected work
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Berlin Urban Live Twin
-`RESEARCH PROTOTYPE`
+### Urban Live Twin
 
-A digital-twin project integrating real-world urban data into a dynamic representation of Berlin for cross-domain analysis of environmental, mobility and infrastructure conditions.
+[Repository](https://github.com/nfloser/berlin-urban-live-twin)
 
-**Technical focus**  
-Geospatial integration · temporal state · heterogeneous data ingestion · urban data modelling
+Integration of heterogeneous real-world urban data into a dynamic spatial representation of Berlin.
 
-[View repository →](https://github.com/nfloser/berlin-urban-live-twin)
-
-</td>
-<td width="50%" valign="top">
-
-### Berlin Urban Resilience Twin
-`RESEARCH PROTOTYPE`
-
-A semantic resilience and routing digital twin for analysing accessibility, infrastructure disruption and network-level impact across urban systems.
-
-**Technical focus**  
-Graph analysis · routing · accessibility · infrastructure resilience · scenario modelling
-
-[View repository →](https://github.com/nfloser/berlin-urban-resilience-twin)
+**Focus**  
+Geospatial ingestion · temporal state · urban data modelling
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Energy Forecasting Digital Twin
-`RESEARCH PROTOTYPE`
+### Urban Resilience Twin
 
-A research-oriented digital twin for short-term energy demand forecasting using real-world time-series data, weather observations, reproducible evaluation and transparent baseline comparison.
+[Repository](https://github.com/nfloser/berlin-urban-resilience-twin)
 
-**Technical focus**  
-Time-series forecasting · temporal validation · model evaluation · reproducible ML workflows
+Network-based analysis of accessibility, infrastructure disruption and resilience scenarios.
 
-[View repository →](https://github.com/nfloser/energy-forecasting-digital-twin)
+**Focus**  
+Graphs · routing · accessibility · scenario analysis
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Emerging Urban Domain Twins
-`INTEGRATION TRACK`
+### Energy Forecasting Twin
 
-Additional mobility, environmental-exposure and urban-heat components extend the wider Berlin Urban Intelligence architecture and are designed to converge into specialised domain agents.
+[Repository](https://github.com/nfloser/energy-forecasting-digital-twin)
 
-**Technical focus**  
-GTFS · traffic state · air quality · exposure analysis · urban climate · thermal burden
+Short-term energy-demand forecasting with real time-series data, weather observations and reproducible baseline evaluation.
 
-[Mobility](https://github.com/nfloser/berlin-urban-mobility-twin) · [Exposure](https://github.com/nfloser/berlin-environmental-exposure-twin) · [Urban Heat](https://github.com/nfloser/berlin-urban-heat-twin)
+**Focus**  
+Forecasting · temporal validation · model evaluation
 
 </td>
 </tr>
@@ -135,47 +83,35 @@ GTFS · traffic state · air quality · exposure analysis · urban climate · th
 
 <br>
 
-<p align="center">
-  <img src="./assets/technical-scope.svg" alt="Technical scope: data semantics, spatial temporal systems and software architecture" width="100%" />
-</p>
+## Areas of work
+
+**Urban digital twins** · **Geospatial data engineering** · **Network analysis** · **Time-series forecasting** · **Knowledge graphs** · **RDF / SPARQL** · **Agent-based systems** · **Semantic data modelling** · **API design** · **Test-driven development**
 
 <br>
 
-## Engineering Approach
+## Engineering principles
 
-For data-intensive and research-oriented software, I treat **provenance, data quality, temporal validity, spatial reference systems, uncertainty and source availability as part of the domain model**, rather than as secondary implementation details.
-
-The systems I build therefore emphasise:
-
-- **Test-driven and incremental development** with deterministic regression coverage.
-- **Authoritative real-world data sources** instead of fabricated production data.
-- **Explicit data-state semantics** separating observed, modelled, forecast, derived and scenario information.
-- **Transparent model evaluation** with reproducible baselines and leakage-aware validation.
-- **Typed interfaces and stable contracts** across domain boundaries.
-- **Geospatial correctness** through explicit coordinate reference systems and validated geometry operations.
-- **Traceable transformations and provenance** across ingestion, processing and analytical stages.
-- **Graceful degradation** when external data sources are stale, incomplete or unavailable.
+- **Real data before plausible data.** Missing or stale source information should remain explicit rather than being replaced by synthetic production values.
+- **Provenance and data state are part of the model.** Observations, estimates, forecasts and scenarios must retain their origin and processing history.
+- **Evaluation must be reproducible.** Analytical and predictive methods should be compared against transparent baselines with leakage-aware validation.
+- **Integration should happen through stable contracts.** Domain components remain independently testable and communicate through typed, versioned interfaces.
 
 <br>
 
-## Current Technical Direction
+## Technical direction
 
-I am currently deepening my work in **semantic knowledge representation, RDF/SPARQL, geospatial computation, spatiotemporal modelling, time-series forecasting, distributed agent architectures and cross-domain digital-twin integration**.
+I am currently extending my work in **semantic interoperability, RDF/SPARQL, spatiotemporal modelling, geospatial computation, distributed agent architectures and cross-domain digital-twin integration**.
 
-A major focus is the transition from standalone analytical prototypes toward **interoperable computational agents** that can contribute to a shared urban intelligence system without sacrificing explainability, provenance or scientific reproducibility.
+The longer-term objective is to move from independent analytical prototypes toward interoperable computational agents that contribute to a shared urban knowledge and scenario-analysis platform.
 
 <br>
 
 ## Collaboration
 
-I am interested in technical exchange and collaboration around **digital twins, geospatial systems, intelligent infrastructure, semantic technologies, forecasting systems, knowledge graphs and data-intensive research software**.
-
-I am especially interested in projects where software engineering is tightly coupled to real-world data, analytical models and explicit system architecture.
-
-<br>
+I am interested in technical exchange around **digital twins, geospatial systems, intelligent infrastructure, semantic technologies, forecasting and research-oriented software engineering**.
 
 ---
 
 <p align="center">
-  <sub>SOFTWARE DEVELOPMENT · URBAN DIGITAL TWINS · GEOSPATIAL INTELLIGENCE · DATA-INTENSIVE SYSTEMS</sub>
+  <sub>SOFTWARE ENGINEERING · URBAN DIGITAL TWINS · GEOSPATIAL SYSTEMS · DATA-INTENSIVE SOFTWARE</sub>
 </p>
