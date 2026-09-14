@@ -152,5 +152,5 @@ I am interested in technical exchange around **ontologies, knowledge graphs, age
 ---
 
 <p align="center">
-  <sub>ONTOLOGY-DRIVEN SYSTEMS · AGENT ENGINEERING · LIVE DATA ANALYTICS</sub>
+  <sub>· leave a follow if interested ·</sub>
 </p>
