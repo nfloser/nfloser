@@ -1,0 +1,51 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1200" y2="420">
+    <stop stop-color="#0B0F14"/>
+    <stop offset="1" stop-color="#101720"/>
+  </linearGradient>
+  <linearGradient id="line" x1="150" y1="0" x2="1050" y2="420">
+    <stop stop-color="#7DD3FC"/>
+    <stop offset="0.5" stop-color="#A7F3D0"/>
+    <stop offset="1" stop-color="#C4B5FD"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="420" rx="24" fill="url(#panel)"/>
+<text x="60" y="65" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700">BERLIN URBAN INTELLIGENCE</text>
+<text x="60" y="94" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="14">Agent-based cross-domain urban intelligence architecture</text>
+<g stroke="url(#line)" stroke-width="1.4" stroke-opacity="0.7">
+  <path d="M600 155 L205 250"/>
+  <path d="M600 155 L395 250"/>
+  <path d="M600 155 L585 250"/>
+  <path d="M600 155 L775 250"/>
+  <path d="M600 155 L965 250"/>
+  <path d="M205 300 L600 360"/>
+  <path d="M395 300 L600 360"/>
+  <path d="M585 300 L600 360"/>
+  <path d="M775 300 L600 360"/>
+  <path d="M965 300 L600 360"/>
+</g>
+<rect x="452" y="118" width="296" height="74" rx="16" fill="#111827" stroke="#475569"/>
+<text x="600" y="149" text-anchor="middle" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">URBAN INTELLIGENCE ORCHESTRATOR</text>
+<text x="600" y="174" text-anchor="middle" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="12">workflow planning · contracts · provenance</text>
+<g font-family="Arial, Helvetica, sans-serif">
+  <rect x="115" y="248" width="180" height="58" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="205" y="276" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700">MOBILITY</text>
+  <text x="205" y="294" text-anchor="middle" fill="#64748B" font-size="11">GTFS · traffic · disruptions</text>
+  <rect x="305" y="248" width="180" height="58" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="395" y="276" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700">ENVIRONMENT</text>
+  <text x="395" y="294" text-anchor="middle" fill="#64748B" font-size="11">air quality · exposure</text>
+  <rect x="495" y="248" width="180" height="58" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="585" y="276" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700">URBAN HEAT</text>
+  <text x="585" y="294" text-anchor="middle" fill="#64748B" font-size="11">climate · thermal burden</text>
+  <rect x="685" y="248" width="180" height="58" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="775" y="276" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700">ENERGY</text>
+  <text x="775" y="294" text-anchor="middle" fill="#64748B" font-size="11">forecasting · evaluation</text>
+  <rect x="875" y="248" width="180" height="58" rx="14" fill="#0F172A" stroke="#334155"/>
+  <text x="965" y="276" text-anchor="middle" fill="#E2E8F0" font-size="14" font-weight="700">RESILIENCE</text>
+  <text x="965" y="294" text-anchor="middle" fill="#64748B" font-size="11">networks · accessibility</text>
+</g>
+<rect x="395" y="342" width="410" height="50" rx="14" fill="#101822" stroke="#475569"/>
+<text x="600" y="365" text-anchor="middle" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700">SHARED URBAN KNOWLEDGE LAYER</text>
+<text x="600" y="383" text-anchor="middle" fill="#64748B" font-family="Arial, Helvetica, sans-serif" font-size="11">semantic · spatial · temporal · provenance-aware</text>
+</svg>
