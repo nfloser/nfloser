@@ -1,0 +1,44 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340">
+      <stop stop-color="#0A1119"/>
+      <stop offset="1" stop-color="#090D13"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="65" x2="1080" y2="270">
+      <stop stop-color="#78D7FF"/>
+      <stop offset="0.5" stop-color="#8CE6C2"/>
+      <stop offset="1" stop-color="#AFA8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="24" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" stroke="#94A3B8" stroke-opacity="0.12"/>
+
+  <text x="54" y="55" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">TECHNICAL SCOPE</text>
+  <text x="54" y="79" fill="#64748B" font-family="ui-monospace, monospace" font-size="11.5" letter-spacing="1.15">DATA · MODELS · ARCHITECTURE</text>
+  <rect x="54" y="98" width="1092" height="1" fill="url(#accent)" opacity="0.38"/>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="54" y="126" width="342" height="158" rx="16" fill="#0D1620" stroke="#2A3847"/>
+    <text x="78" y="157" fill="#7DD3FC" font-size="12" font-weight="700" letter-spacing="1.2">DATA &amp; SEMANTICS</text>
+    <text x="78" y="188" fill="#D7E0E9" font-size="14">Knowledge graphs</text>
+    <text x="78" y="213" fill="#D7E0E9" font-size="14">RDF / SPARQL</text>
+    <text x="78" y="238" fill="#D7E0E9" font-size="14">Semantic data modelling</text>
+    <text x="78" y="263" fill="#D7E0E9" font-size="14">Provenance-aware pipelines</text>
+
+    <rect x="429" y="126" width="342" height="158" rx="16" fill="#0D1620" stroke="#2A3847"/>
+    <text x="453" y="157" fill="#8CE6C2" font-size="12" font-weight="700" letter-spacing="1.2">SPATIAL &amp; TEMPORAL</text>
+    <text x="453" y="188" fill="#D7E0E9" font-size="14">Geospatial computation</text>
+    <text x="453" y="213" fill="#D7E0E9" font-size="14">Network analysis</text>
+    <text x="453" y="238" fill="#D7E0E9" font-size="14">Time-series forecasting</text>
+    <text x="453" y="263" fill="#D7E0E9" font-size="14">Spatiotemporal integration</text>
+
+    <rect x="804" y="126" width="342" height="158" rx="16" fill="#0D1620" stroke="#2A3847"/>
+    <text x="828" y="157" fill="#AFA8FF" font-size="12" font-weight="700" letter-spacing="1.2">SOFTWARE ARCHITECTURE</text>
+    <text x="828" y="188" fill="#D7E0E9" font-size="14">Agent-based systems</text>
+    <text x="828" y="213" fill="#D7E0E9" font-size="14">Typed API contracts</text>
+    <text x="828" y="238" fill="#D7E0E9" font-size="14">Test-driven development</text>
+    <text x="828" y="263" fill="#D7E0E9" font-size="14">Reproducible workflows</text>
+  </g>
+
+  <text x="1144" y="317" text-anchor="end" fill="#475569" font-family="ui-monospace, monospace" font-size="10.5">ENGINEERING PROFILE</text>
+</svg>
