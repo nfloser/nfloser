@@ -1,8 +1,8 @@
 # Nils
 
-Software developer building **data-intensive, deterministic and interoperable systems**.
+I build data-intensive software with explicit contracts, reproducible behaviour and interoperable interfaces.
 
-My current work spans semantic/geospatial platforms, rule-based decision support, scientific simulation and modular backend infrastructure. I care about clear contracts, traceable data, reproducible behaviour and software that can be tested end to end.
+My projects span geospatial and semantic platforms, rule-based decision support, scientific simulation and backend infrastructure. I want to be able to trace where data came from and test the complete path through a system.
 
 ## Focus
 
@@ -20,4 +20,3 @@ My current work spans semantic/geospatial platforms, rule-based decision support
 - **[VesicleScope](https://github.com/nfloser/vesicle-scope)** — evidence-grounded simulation and analysis of extracellular-vesicle transport.
 - **[Berlin Semantic Cadastre](https://github.com/nfloser/berlin-semantic-cadastre)** — .NET geospatial integration with cadastral data, GeoSPARQL and GIS-oriented APIs.
 
-More projects and experiments are available in my repositories.
