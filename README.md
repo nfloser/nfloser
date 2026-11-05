@@ -1,24 +1,15 @@
 # Nils
 
-Software developer working on **modular backends, game-server systems, urban data platforms and scientific software**.
+I'm a software developer working mostly with C#/.NET, Python and TypeScript. I build plugins for Counter-Strike 2 servers, work on geospatial data services and develop tools for simulation and rule-based decisions.
 
-I build software with explicit contracts, reproducible behaviour and a focus on real-world integration. My projects range from Counter-Strike 2 community tooling to geospatial infrastructure, deterministic decision support and simulation.
+I like projects where I can test the whole workflow, from the data going in to what a user sees. I use issues, pull requests and CI to keep changes traceable.
 
-## Focus
+## Projects
 
-- C# / .NET, Python, TypeScript
-- Modular plugins, APIs and backend integrations
-- Counter-Strike 2 server tooling and in-game interfaces
-- Geospatial systems, RDF / GeoSPARQL and data interoperability
-- Deterministic workflows, simulation and provenance
-- Issue-driven development, automated tests and CI
+- [AnoCore](https://github.com/nfloser/AnoCore): A Counter-Strike 2 server plugin for stats, ranks, XP, challenges, map voting and match administration. It includes in-game menus and tournament tools; available features depend on the installed build and server configuration.
+- [Urbanium](https://github.com/nfloser/urbanium): Shared services for urban digital twins. Berlin and Mainz use the same core interfaces, with separate adapters for their data sources.
+- [NormaCase](https://github.com/nfloser/normacase): Rule-based assessment software with review queues and an audit trail. The current end-to-end demos use synthetic data and are not approved for production assessments.
+- [VesicleScope](https://github.com/nfloser/vesicle-scope): A research tool for simulating extracellular-vesicle transport. Its numerical tests use analytical and synthetic benchmarks; biological prediction still needs external validation.
+- [Berlin Semantic Cadastre](https://github.com/nfloser/berlin-semantic-cadastre): A .NET service that reads Berlin cadastral data, runs spatial queries and exports GeoJSON and GeoSPARQL-compatible RDF.
 
-## Selected work
-
-- **[AnoCore](https://github.com/nfloser/AnoCore)** — modular Counter-Strike 2 community-server plugin with player statistics, ranks, XP and challenges, in-game menus, map voting, moderation and organized-match tooling. Native UI and tournament features depend on the deployed build and configuration.
-- **[Urbanium](https://github.com/nfloser/urbanium)** — city-independent infrastructure for federated urban digital twins, with versioned contracts, provider adapters and provenance-aware observations.
-- **[NormaCase](https://github.com/nfloser/normacase)** — auditable, rule-based decision support with deterministic assessments and human-review workflows; currently demonstrated with synthetic data.
-- **[VesicleScope](https://github.com/nfloser/vesicle-scope)** — reproducible extracellular-vesicle transport simulation and analysis, with numerical verification and explicitly documented scientific limitations.
-- **[Berlin Semantic Cadastre](https://github.com/nfloser/berlin-semantic-cadastre)** — .NET geospatial integration for cadastral data, spatial queries, GeoSPARQL-compatible RDF and GIS exports.
-
-More projects and experiments are available in my [repositories](https://github.com/nfloser?tab=repositories).
+You can find the rest on my [repositories page](https://github.com/nfloser?tab=repositories).
