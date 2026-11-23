@@ -1,15 +1,33 @@
-# Nils
+# Nils Flöser
 
-I'm a software developer working mostly with C#/.NET, Python and TypeScript. I build plugins for Counter-Strike 2 servers, work on geospatial data services and develop tools for simulation and rule-based decisions.
+Software developer building **traceable software for healthcare and public administration** – systems where every result can be explained and checked.
 
-I like projects where I can test the whole workflow, from the data going in to what a user sees. I use issues, pull requests and CI to keep changes traceable.
+At [Berufsgenossenschaft Holz und Metall](https://www.bghm.de/), a German statutory accident insurance institution, I work on business applications with C#/.NET and SAP ABAP. In my own projects I own the whole path: architecture, tests, CI, documentation and a demo that runs with one command.
 
-## Projects
+**Java · Spring Boot · Angular · TypeScript · C#/.NET · SAP ABAP · Python · PostgreSQL · Docker**
 
-- [AnoCore](https://github.com/nfloser/AnoCore): A Counter-Strike 2 server plugin for stats, ranks, XP, challenges, map voting and match administration. It includes in-game menus and tournament tools; available features depend on the installed build and server configuration.
-- [Urbanium](https://github.com/nfloser/urbanium): Shared services for urban digital twins. Berlin and Mainz use the same core interfaces, with separate adapters for their data sources.
-- [NormaCase](https://github.com/nfloser/normacase): Rule-based assessment software with review queues and an audit trail. The current end-to-end demos use synthetic data and are not approved for production assessments.
-- [VesicleScope](https://github.com/nfloser/vesicle-scope): A research tool for simulating extracellular-vesicle transport. Its numerical tests use analytical and synthetic benchmarks; biological prediction still needs external validation.
-- [Berlin Semantic Cadastre](https://github.com/nfloser/berlin-semantic-cadastre): A .NET service that reads Berlin cadastral data, runs spatial queries and exports GeoJSON and GeoSPARQL-compatible RDF.
+## Featured
 
-You can find the rest on my [repositories page](https://github.com/nfloser?tab=repositories).
+### [NormaCase](https://github.com/nfloser/normacase) – rule-based decision support for medical assessments
+
+Evaluates applications against versioned rules and shows the complete decision trail for every result. Missing information leads to a targeted follow-up request, conflicting evidence goes to a human, approval follows the four-eyes principle. Case data is deleted after pickup; only a decision record without case content remains.
+
+Java 25 · Spring Boot · Angular · PostgreSQL · Keycloak · Docker · Kubernetes – 118 parity cases against the previous .NET engine, end-to-end and accessibility tests, load tests in CI. All cases are fictional.
+
+### [Urbanium](https://github.com/nfloser/urbanium) – live urban data with sources attached
+
+Brings live city data – weather from the German Weather Service (DWD), public transport alerts (VBB) – into one API, keeping the source of every value. The core is city-independent; Berlin and Mainz are the first deployments. [Browser demo](https://nfloser.github.io/urbanium/)
+
+Python · REST/OpenAPI · RDF/SHACL
+
+## More projects
+
+- [AnoCore](https://github.com/nfloser/AnoCore) – Counter-Strike 2 server plugin with stats, ranks, map voting and match administration (C#)
+- [VesicleScope](https://github.com/nfloser/vesicle-scope) – research tool for simulating extracellular-vesicle transport
+- [Berlin Semantic Cadastre](https://github.com/nfloser/berlin-semantic-cadastre) – .NET service for Berlin cadastral data with spatial queries, GeoJSON and GeoSPARQL export
+
+## How I work
+
+Issue → branch → tests → pull request → CI → review → merge. Small commits, documented decisions (ADRs), and no claims a test can't back up.
+
+[LinkedIn](https://www.linkedin.com/in/nils-floeser) · [All repositories](https://github.com/nfloser?tab=repositories)
